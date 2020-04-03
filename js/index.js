@@ -1,2 +1,2 @@
 var lastUpdate = document.getElementById('last-update');
-lastUpdate.textContent = 'Last Updated: 16 March, 2020';
+lastUpdate.textContent = 'Last Updated: 3rd April, 2020';

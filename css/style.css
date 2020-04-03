@@ -192,6 +192,10 @@ section {
   transition-delay: 0.2s;
 }
 
+footer{
+  color: #fff;
+}
+
 .mynav {
     background-color: #36758860;
 }
