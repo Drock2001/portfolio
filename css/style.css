@@ -80,7 +80,7 @@ section {
     padding: 20px 0;
     height: 100%;
     position: relative;
-    transition: background-color 0.5s ease-out;
+    
 }
 
 .home {
@@ -152,8 +152,12 @@ section {
 .section-info li{
   font-family: 'Josefin Sans', sans-serif;
   line-height: 28px;
-  color: #ffffff;
+  color: #ffffff99;
   font-size: 20px;
+}
+
+.section-info li:hover{
+  color: #ffffff;
 }
 
 .section-info .mybtn {
@@ -188,6 +192,7 @@ section {
 .footer .link img:hover{
   color: #2196f3;
   background-color: #367588;
+  height: 30px;
   box-shadow: 0 0 10px #367588, 0 0 40px #367588, 0 0 80px #367588;
   transition-delay: 0.2s;
 }
