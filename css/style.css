@@ -19,7 +19,7 @@ h1 {
 
 #video-bg-elem{
   position: absolute;
-  opacity: 90%;
+  opacity: 100%;
   top: 0;
   left: 0;
   min-width: 100%;
@@ -54,6 +54,7 @@ header ul a {
 .logo{
   text-align: center;
   opacity: 90%;
+  transition: background-color 0.5s ease-out;
 }
 
 header ul a:hover{
