@@ -233,6 +233,16 @@ footer{
 	transition: 0.5s;
 	transition-delay: 0.5s;
 }
+
+.container .box .imgBx img{
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 280px;
+	height: 400px;
+}
+
+
 .container .box:hover .imgBx
 {
 	clip-path: circle(80px at center 100px);
@@ -318,4 +328,76 @@ footer{
   background-color: #367588;
   box-shadow: 0 0 10px #367588, 0 0 40px #367588, 0 0 80px #367588;
   transition-delay: 0.2s;
+}
+
+@media (max-width: 750px) {
+  .section-info {
+      font-family: 'Josefin Sans', sans-serif;
+      width: 90%;
+      margin: 0 auto;
+      padding: 30px 0;
+      color: #ffffff;
+      text-align: center;
+  }
+
+  header {
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      color: #ffffff;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 2px;
+      z-index: 99;
+      transition: background-color 0.5s ease-out;
+  }
+
+  header ul a {
+      font-family: 'Josefin Sans', sans-serif;
+      color: #fff;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none;
+      visibility: hidden;
+      transition: background-color 0.5s ease-out;
+  }
+
+  .section-info p {
+      font-family: 'Josefin Sans', sans-serif;
+      line-height: 28px;
+      color: #ffffff99;
+      font-size: 16px;
+  }
+
+  .section-info li{
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 28px;
+    color: #ffffff99;
+    font-size: 18px;
+  }
+
+  .table td, .table th {
+    padding: 2px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+
+  .container .box
+  {
+  	position: relative;
+  	width: 140px;
+  	height: 200px;
+  	margin: 20px 0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  }
+
+  .container .box .imgBx img{
+    position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 140px;
+  	height: 200px;
+  }
 }
