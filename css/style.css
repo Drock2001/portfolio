@@ -53,7 +53,7 @@ header ul a {
 
 .logo{
   text-align: center;
-  opacity: 90%;
+  opacity: 100%;
   transition: background-color 0.5s ease-out;
 }
 
@@ -87,8 +87,8 @@ section {
     font-family: 'Josefin Sans', sans-serif;
     color: #fff;
     padding: 0;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 5px;
     text-align: center;
     justify-content: center;
     transition: background-color 0.5s ease-out;
@@ -108,10 +108,37 @@ section {
     font-size: 20px;
     text-align: center;
     padding: 10px 20px;
-    margin: 10px 0 50px;
+    margin: 5px 0 5px;
     display: inline-block;
     letter-spacing: 4;
     visibility: hidden;
+}
+
+.resume{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.resume .mybtn {
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #36758840;
+    border: 1px solid #36758880;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 35px;
+    z-index: 999;
+}
+
+.resume .mybtn:hover{
+  color: #2196f3;
+  background-color: #367588;
+  box-shadow: 0 0 10px #367588, 0 0 40px #367588, 0 0 80px #367588;
+  transition-delay: 0.2s;
 }
 
 .section-title {
@@ -144,19 +171,20 @@ section {
 .section-info p {
     font-family: 'Josefin Sans', sans-serif;
     line-height: 28px;
-    color: #ffffff99;
+    color: #ffffff;
     font-size: 24px;
 }
 
 .section-info li{
   font-family: 'Josefin Sans', sans-serif;
   line-height: 28px;
-  color: #ffffff99;
+  color: #ffffff;
   font-size: 20px;
 }
 
 .section-info li:hover{
-  color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
 }
 
 .section-info .mybtn {
@@ -170,7 +198,7 @@ section {
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    margin-top: 35px;
+    margin-top: 15px;
     z-index: 999;
 }
 
@@ -366,14 +394,14 @@ footer{
   .section-info p {
       font-family: 'Josefin Sans', sans-serif;
       line-height: 28px;
-      color: #ffffff99;
+      color: #ffffff;
       font-size: 16px;
   }
 
   .section-info li{
     font-family: 'Josefin Sans', sans-serif;
     line-height: 28px;
-    color: #ffffff99;
+    color: #ffffff;
     font-size: 18px;
   }
 
